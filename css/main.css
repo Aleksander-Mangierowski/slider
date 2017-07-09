@@ -1,0 +1,46 @@
+@import url(http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css);
+
+body {
+	overflow-x: hidden;
+}
+
+.row {
+	position: relative;
+	left: 50%;
+	top: 0;
+	margin-left: -1208px;
+	width: 2416px;
+	height: 545px;
+}
+
+.left, .center, .right {
+	display: inline-block;
+}
+
+.first, .second, .third, .fourth, .fifth,
+.sixth, .seventh, .eighth, .ninth {
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.sixth, .first, .eighth, .third {
+	height: 245px;
+}
+
+.center {
+	width: 800px;
+	height: 545px;
+	overflow: hidden;
+}
+
+.upper,
+.lower {
+	
+}
+
+.upper img,
+.lower img {
+	width: 400px;
+}
