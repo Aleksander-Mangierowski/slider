@@ -11,6 +11,7 @@ body {
 	margin-left: -1208px;
 	width: 2416px;
 	height: 545px;
+	outline: 1px solid blue;
 }
 
 .left, .center, .right {
@@ -37,11 +38,27 @@ body {
 
 .upper,
 .lower {
-	
+	overflow: hidden;
 }
 
-.upper img,
-.lower img {
-	width: 400px;
+.img {
+	position: absolute;
 }
+
+.upper .img,
+.lower .img {
+	width: 400px;
+	height: 300px;
+}
+
+.lower .img {
+	height: 245px;
+}
+
+.center .img {
+	width: 800px;
+	height: 549px;
+	top: 0;
+}
+
 
